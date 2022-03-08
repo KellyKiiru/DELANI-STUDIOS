@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .bg-image {
-    background-image: url('/IP3-assets-folder/backgrounds/h_img.jpg');
+    background-image: url('IP3-assets-folder/backgrounds/h_img.jpg');
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
