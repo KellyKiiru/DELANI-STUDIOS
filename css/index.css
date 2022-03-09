@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-.bg-image {
-    background-image: url('images/h_img.jpg');
+/* .bg-image {
+    background-image: url('/images/h_img.jpg');
     height: 800px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
+} */
 
 .text-white h2 {
     /* border: 2px solid black; */
@@ -44,13 +44,13 @@
     padding-top: 50px;
     padding-bottom: 30px;
 }
-
+/* 
 .services {
-    background-image: url('images/s_image.jpg');
+    background-image: url('/images/s_image.jpg');
     height: 500px;
     background-repeat: no-repeat;
     color: white;
-}
+} */
 
 .text {
     display: flex;
