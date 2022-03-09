@@ -122,3 +122,12 @@
     background-color: #635e5b;
     font-weight: 900px;
 }
+#form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+#name{
+    display: flex;
+}
