@@ -95,4 +95,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    /* margin: 10px; */
+}
+.tiles .one div, .tiles .two div{
+    /* margin-top: 10px; */
+}
+
+.uno img, .deuce img, .tres img, .cuatro img{
+    /* margin: 5px; */
+    height: 80%;
 }
