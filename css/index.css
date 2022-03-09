@@ -3,3 +3,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+.bg-image{
+    background-image: url('/images/h_img.jpg');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.text-white{
+    /* border: 2px solid black; */
+}
+.d-flex{
+    /* border: 2px solid black; */
+    height: inherit;
+}
+.mask{
+    /* border: 2px solid red; */
+    height: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
