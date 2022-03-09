@@ -1,3 +1,66 @@
+$(document).ready(function(){
+    $('#designs-first').click(function(){
+        $('#designs-first').hide(0,function(){
+            $('#design-image').show(0);
+        });
+    });
+});
+
+$(document).ready(function(){
+    $('#design-image').click(function(){
+        $('#designs-first').show(0,function(){
+            $('#design-image').hide(0);
+        });
+    });
+});
+
+$(document).ready(function(){
+    $('#designs-portfolio').click(function(){
+        $('#designs-portfolio').hide(0,function(){
+            $('#portfolio-image').show(0);
+        });
+    });
+});
+
+$(document).ready(function(){
+    $('#portfolio-image').click(function(){
+        $('#designs-first').show(0,function(){
+            $('#portfolio-image').hide(0);
+        });
+    });
+});
+
+$(document).ready(function(){
+    $('#designs-first').click(function(){
+        $('#designs-first').hide(0,function(){
+            $('#design-image').show(0);
+        });
+    });
+});
+
+$(document).ready(function(){
+    $('#design-image').click(function(){
+        $('#designs-first').show(0,function(){
+            $('#design-image').hide(0);
+        });
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // $(document).ready(function(){
 //     $('#designs-first').click(function(){
 //         $('#design-image').show(1000);
@@ -27,13 +90,13 @@
 //     });
 // });
 
-$(document).ready(function(){
-    $('#designs-first').click(function(){
-        $('#designs-first').hide(0,function(){
-            $('#design-image').show();
-        });
-    });
-});
+// $(document).ready(function(){
+//     $('#designs-first').click(function(){
+//         $('#designs-first').hide(0,function(){
+//             $('#design-image').show();
+//         });
+//     });
+// });
 
 // $(document).ready(function(){
 //     $('#designs-portfolio').click(function(){
