@@ -86,6 +86,7 @@
     background-color: aqua;
     margin-top: 10px;
 }
-#design-image, #portfolio-image, #product-image{
+#design-image, #portfolio-image, #productdev-image{
     display: none;
+    padding-top: 50px;
 }

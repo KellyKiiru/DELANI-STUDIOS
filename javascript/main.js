@@ -24,24 +24,24 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('#portfolio-image').click(function(){
-        $('#designs-first').show(0,function(){
+        $('#designs-portfolio').show(0,function(){
             $('#portfolio-image').hide(0);
         });
     });
 });
 
 $(document).ready(function(){
-    $('#designs-first').click(function(){
-        $('#designs-first').hide(0,function(){
-            $('#design-image').show(0);
+    $('#designs-product').click(function(){
+        $('#designs-product').hide(0,function(){
+            $('#productdev-image').show(0);
         });
     });
 });
 
 $(document).ready(function(){
-    $('#design-image').click(function(){
-        $('#designs-first').show(0,function(){
-            $('#design-image').hide(0);
+    $('#productdev-image').click(function(){
+        $('#designs-product').show(0,function(){
+            $('#productdev-image').hide(0);
         });
     });
 });
