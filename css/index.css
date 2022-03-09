@@ -85,3 +85,14 @@
     display: none;
     padding-top: 50px;
 }
+
+.tiles{
+    display: flex;
+    flex-direction: column ;
+}
+
+.tiles .one, .tiles .two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
