@@ -10,8 +10,12 @@
     background-position: center;
     background-size: cover;
 }
-.text-white{
+.text-white h2{
     /* border: 2px solid black; */
+    padding-top: 20px;
+    line-height: 50px;
+    font-weight: 400;
+
 }
 .d-flex{
     /* border: 2px solid black; */
