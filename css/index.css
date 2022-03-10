@@ -120,5 +120,32 @@
     justify-content: center;
     color: white;
     background-color: #635e5b;
-    font-weight: 900px;
+    /* font-weight: 900px; */
+}
+.footer-form{
+    display: flex;
+    justify-content: center;
+}
+.form-row{
+    position: relative;
+    top: 50px;
+    /* border: 3px yellow solid; */
+    height: min-content;
+}
+.names{
+    /* border: 3px rgb(255, 0, 0) solid; */
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+#name, #email{
+    background: transparent;
+    border: none;
+}
+#email-message{
+    position: relative;
+    top: 20px;
+    height: 500px;
+    background: transparent;
+    border: none;
 }
