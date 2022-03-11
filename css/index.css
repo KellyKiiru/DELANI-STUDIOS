@@ -152,9 +152,39 @@
     /* border: none; */
     color: white;
     font-size: medium;
-}.email-message{
+
 }
 
 .name{
     border: #c1c1c1 1px;
+}
+
+.footer-socials{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: salmon; */
+}
+.col-md-2{
+    /* background-color: black; */
+    /* display: none; */
+}
+
+.copyright{
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.flex{
+    display: flex;
+}
+.copyright p{
+    line-height: 10px;
 }
