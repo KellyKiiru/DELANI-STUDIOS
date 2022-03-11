@@ -140,12 +140,15 @@
 }
 #name, #email{
     background: transparent;
-    border: none;
+    border: 1px white solid;
+    border-radius: 3px;
 }
 #email-message{
     position: relative;
     top: 20px;
-    height: 500px;
+    /* height: 500px; */
     background: transparent;
-    border: none;
+    /* border: none; */
+    color: white;
+    font-size: medium;
 }
