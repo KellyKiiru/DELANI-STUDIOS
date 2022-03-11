@@ -140,8 +140,9 @@
 }
 #name, #email{
     background: transparent;
-    border: 1px white solid;
+    border: 1px #c1c1c1 solid;
     border-radius: 3px;
+    /* border: ; */
 }
 #email-message{
     position: relative;
@@ -151,4 +152,9 @@
     /* border: none; */
     color: white;
     font-size: medium;
+}.email-message{
+}
+
+.name{
+    border: #c1c1c1 1px;
 }
