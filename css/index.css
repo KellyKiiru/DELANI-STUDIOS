@@ -196,17 +196,17 @@
     display: flex;
     justify-content: flex-end;
 }
-.submit button{
+.submit input{
     width: 20%;
     background-color: #635e5b;
-    transition: .5s;
+    transition: .3s;
     border: #c1c1c1 1px solid;
     border-radius: 5px;
     color: white;
     letter-spacing: 3px;
 }
 
-.submit button:hover{
+.submit input:hover{
     background-color: #c1c1c1;
 
 }
