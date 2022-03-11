@@ -188,3 +188,25 @@
 .copyright p{
     line-height: 10px;
 }
+.submit{
+    position: relative;
+    top: 30px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-end;
+}
+.submit button{
+    width: 20%;
+    background-color: #635e5b;
+    transition: .5s;
+    border: #c1c1c1 1px solid;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.submit button:hover{
+    background-color: #c1c1c1;
+
+}
