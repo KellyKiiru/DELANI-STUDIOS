@@ -105,10 +105,10 @@
     /* margin: 10px; */
 }
 
-.uno img,
-.deuce img,
-.tres img,
-.cuatro img {
+.uno,
+.deuce,
+.tres,
+.cuatro {
     /* margin: 5px; */
     /* width: 80%; */
     /* height: 80%; */
@@ -303,4 +303,5 @@
     height: min-content;
     position: relative;
     top: -250px;
+    border-radius: 3px;
 }
