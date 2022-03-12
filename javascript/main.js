@@ -47,52 +47,52 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $(".uno").onmouseover(function{
+  $(".uno").mouseenter(function{
     $("#dark-screeen1").show(000);
   });
 });
 
 $(document).ready(function(){
-  $(".deuce").onmouseover(function{
+  $(".deuce").mouseenter(function{
     $("#dark-screeen2").show(000);
   });
 });
 
 $(document).ready(function(){
-  $(".tres").onmouseover(function{
+  $(".tres").mouseenter(function{
     $("#dark-screeen3").show(000);
   });
 });
 
 $(document).ready(function(){
-  $(".cuatro").onmouseover(function{
+  $(".cuatro").mouseenter(function{
     $("#dark-screeen4").show(000);
   });
 });
 
 
 $(document).ready(function(){
-  $(".uno2").onmouseover(function{
+  $(".uno2").mouseenter(function{
     $("#dark-screeen5").show(000);
   });
 });
 
 
 $(document).ready(function(){
-  $(".deuce2").onmouseover(function{
+  $(".deuce2").mouseenter(function{
     $("#dark-screeen6").show(000);
   });
 });
 
 
 $(document).ready(function(){
-  $(".tres2").onmouseover(function{
+  $(".tres2").mouseenter(function{
     $("#dark-screeen7").show(000);
   });
 });
 
 $(document).ready(function(){
-  $(".cuatro2").onmouseover(function{
+  $(".cuatro2").mouseenter(function{
     $("#dark-screeen8").show(000);
   });
 });
