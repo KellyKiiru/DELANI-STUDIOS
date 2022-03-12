@@ -46,16 +46,162 @@ $(document).ready(function(){
     });
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $(document).ready(function(){
-  $('.uno img').click(function(){
+  $('#uno').mouseover(function(){
     $('#dark-screen1').show(0,function(){
-      $('.uno img').hide();
+      $('#uno').show(100,0.9);
+    });
+  });
+});
+
+
+$(document).ready(function(){
+  $('#dark-screen1').mouseleave(function(){
+    $('#uno').show(0,function(){
+      $('#dark-screen1').hide(0);
     });
   });
 });
 
 
 
+$(document).ready(function(){
+  $('#deuce').mouseover(function(){
+    $('#dark-screen2').show(0,function(){
+      $('#deuce').show(100,0.9);
+    });
+  });
+});
+
+
+$(document).ready(function(){
+  $('#dark-screen2').mouseleave(function(){
+    $('#deuce').show(0,function(){
+      $('#dark-screen2').hide(0);
+    });
+  });
+});
+
+
+$(document).ready(function(){
+  $('#tres').mouseover(function(){
+    $('#dark-screen3').show(0,function(){
+      $('#tres').show(100,0.9);
+    });
+  });
+});
+
+$(document).ready(function(){
+  $('#dark-screen3').mouseleave(function(){
+    $('#tres').show(0,function(){
+      $('#dark-screen3').hide(0);
+    });
+  });
+});
+
+
+$(document).ready(function(){
+  $('#cuatro').mouseover(function(){
+    $('#dark-screen4').show(0,function(){
+      $('#cuatro').show(100,0.9);
+    });
+  });
+});
+
+$(document).ready(function(){
+  $('#dark-screen4').mouseleave(function(){
+    $('#cuatro').show(0,function(){
+      $('#dark-screen4').hide(0);
+    });
+  });
+});
+
+
+
+$(document).ready(function(){
+  $('#uno2').mouseover(function(){
+    $('#dark-screen5').show(0,function(){
+      $('#uno2').show(100,0.9);
+    });
+  });
+});
+
+$(document).ready(function(){
+  $('#dark-screen5').mouseleave(function(){
+    $('#uno2').show(0,function(){
+      $('#dark-screen5').hide(0);
+    });
+  });
+});
+
+
+
+$(document).ready(function(){
+  $('#deuce2').mouseover(function(){
+    $('#dark-screen6').show(0,function(){
+      $('#deuce2').show(100,0.9);
+    });
+  });
+});
+
+$(document).ready(function(){
+  $('#dark-screen6').mouseleave(function(){
+    $('#deuce2').show(0,function(){
+      $('#dark-screen6').hide(0);
+    });
+  });
+});
+
+
+$(document).ready(function(){
+  $('#tres2').mouseover(function(){
+    $('#dark-screen7').show(0,function(){
+      $('#tres2').show(100,0.9);
+    });
+  });
+});
+
+$(document).ready(function(){
+  $('#dark-screen7').mouseleave(function(){
+    $('#tres2').show(0,function(){
+      $('#dark-screen7').hide(0);
+    });
+  });
+});
+
+
+$(document).ready(function(){
+  $('#cuatro2').mouseover(function(){
+    $('#dark-screen8').show(0,function(){
+      $('#cuatro2').show(100,0.9);
+    });
+  });
+});
+
+$(document).ready(function(){
+  $('#dark-screen8').mouseleave(function(){
+    $('#cuatro2').show(0,function(){
+      $('#dark-screen8').hide(0);
+    });
+  });
+});
 
 
 
