@@ -46,17 +46,56 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+  $(".uno").onmouseover(function{
+    $("#dark-screeen1").show(000);
+  });
+});
+
+$(document).ready(function(){
+  $(".deuce").onmouseover(function{
+    $("#dark-screeen2").show(000);
+  });
+});
+
+$(document).ready(function(){
+  $(".tres").onmouseover(function{
+    $("#dark-screeen3").show(000);
+  });
+});
+
+$(document).ready(function(){
+  $(".cuatro").onmouseover(function{
+    $("#dark-screeen4").show(000);
+  });
+});
 
 
+$(document).ready(function(){
+  $(".uno2").onmouseover(function{
+    $("#dark-screeen5").show(000);
+  });
+});
 
 
+$(document).ready(function(){
+  $(".deuce2").onmouseover(function{
+    $("#dark-screeen6").show(000);
+  });
+});
 
 
+$(document).ready(function(){
+  $(".tres2").onmouseover(function{
+    $("#dark-screeen7").show(000);
+  });
+});
 
-
-
-
-
+$(document).ready(function(){
+  $(".cuatro2").onmouseover(function{
+    $("#dark-screeen8").show(000);
+  });
+});
 
 
 
