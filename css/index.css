@@ -118,7 +118,7 @@
     justify-items: center;
 }
 
-#uno:hover{
+/* #uno:hover{
     height: 50%;
 }
 #deuce:hover{
@@ -129,7 +129,7 @@
 }
 #cuatro:hover{
     height: 50%;
-}
+} */
 
 .uno2 img,
 .deuce2 img,
@@ -139,7 +139,7 @@
     height: 80%;
 }
 
-#uno2:hover{
+/* #uno2:hover{
     height: 50%;
 }
 #deuce2:hover{
@@ -150,7 +150,7 @@
 }
 #cuatro2:hover{
     height: 50%;
-}
+} */
 
 #contact-us{
     position: relative;
@@ -270,6 +270,6 @@
   /* height:80% ; */
   width: 50%;
   height: min-content;
-  position: static;
-  /* top: -40px; */
+  position: relative;
+  top: -250px;
 }
