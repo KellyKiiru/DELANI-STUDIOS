@@ -219,3 +219,13 @@
     background-color: #c1c1c1;
 
 }
+
+#dark-screen1, #dark-screen2, #dark-screen3, #dark-screen4,  #dark-screen5,  #dark-screen6,  #dark-screen7, #dark-screen8 {
+  display: none;
+  background-color: #fff 0.5;
+  box-shadow: 0 4px 2px rgba(0,0,0,0.02),
+  0 8px 6px rgba(0,0,0,0.03),
+  0 16px 10px rgba(0,0,0,0.04),
+  0 26px 18px rgba(0,0,0,0.05);
+  width: ;
+}
