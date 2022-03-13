@@ -67,7 +67,7 @@ $(document).ready(function () {
   $('#uno').mouseover(function () {
     $('#dark-screen1').show(1200);
     $('#uno').mouseleave(function () {
-      $('#dark-screen1').hide(0);
+      $('#dark-screen1').hide(1200);
     });
   });
 });
@@ -85,7 +85,7 @@ $(document).ready(function () {
   $('#deuce').mouseover(function () {
     $('#dark-screen2').show(1200);
     $('#deuce').mouseleave(function(){
-      $('#dark-screen2').hide(0);
+      $('#dark-screen2').hide(1200);
     });
   });
 });
@@ -104,7 +104,7 @@ $(document).ready(function () {
   $('#tres').mouseover(function () {
     $('#dark-screen3').show(1200);
     $('#tres').mouseleave(function(){
-      $('#dark-screen3').hide(0);
+      $('#dark-screen3').hide(1200);
     });
   });
 });
@@ -122,7 +122,7 @@ $(document).ready(function () {
   $('#cuatro').mouseover(function () {
     $('#dark-screen4').show(1200,function(){
       $('#cuatro').mouseleave(function(){
-        $('#dark-screen4').hide(0);
+        $('#dark-screen4').hide(1200);
       });
     });
   });
@@ -142,7 +142,7 @@ $(document).ready(function () {
   $('#uno2').mouseover(function () {
     $('#dark-screen5').show(1200);
     $('#uno2').mouseleave(function(){
-      $('#dark-screen5').hide(0);
+      $('#dark-screen5').hide(1200);
     });
   });
 });
@@ -161,7 +161,7 @@ $(document).ready(function () {
   $('#deuce2').mouseover(function () {
     $('#dark-screen6').show(1200);
     $('#deuce2').mouseleave(function(){
-      $('#dark-screen6').hide(0);
+      $('#dark-screen6').hide(1200);
     });
   });
 });
@@ -179,7 +179,7 @@ $(document).ready(function () {
   $('#tres2').mouseover(function () {
     $('#dark-screen7').show(1200);
     $('#tres2').mouseleave(function(){
-      $('#dark-screen7').hide(0);
+      $('#dark-screen7').hide(1200);
     });
   });
 });
@@ -197,7 +197,7 @@ $(document).ready(function () {
   $('#cuatro2').mouseover(function () {
     $('#dark-screen8').show(1200);
     $('#cuatro2').mouseleave(function(){
-      $('#dark-screen8').hide(0);
+      $('#dark-screen8').hide(1200);
     });
   });
 });
