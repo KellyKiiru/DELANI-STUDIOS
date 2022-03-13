@@ -138,15 +138,24 @@ let email = document.getElementById('email');
 
 let emailMessage = document.getElementById('email-message');
 
+let alert1 = 'Please input your name.'
+
+let alert2 = 'Please input email.'
+
+let alert3 = 'Have suggestions? Write to us today.'
+
+
 function myFunction() {
-  if (jina.value === '' || jina.value == null) {
+  if (jina.value === '' || jina.value == null && email.value === '' || email.value == null && emailMessage.value === '' || emailMessage.value == null) {
+    alert(alert3)
+  } else if (jina.value === '' || jina.value == null) {
     alert('Please input your name.')
   } else if (email.value === '' || email.value == null) {
     alert('Please input email.')
   } else if (emailMessage.value === '' || emailMessage.value == null) {
-    alert('Want to give us suggestions. Write to us today.')
+    alert('Please give us your ideas, feedback or comments in the text box.')
   } else if (jina.value && email.value && emailMessage.value) {
-    alert('Hi ' + jina.value + '. Thank you. We appreciate your feedback. Expect an email response from our team in 24 hours.')
+    alert('Hi ' + jina.value + '. Thank you. We appreciate your feedback. Expect an email response from our team within 24 hours.')
   } else {
     alert("We'd like to hear from you. Write to us.")
   }
