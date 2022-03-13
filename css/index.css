@@ -115,9 +115,12 @@
 }
 
 .form-row {
-    position: relative;
-    left: 25%;
-    height: min-content;
+    /* position: relative; */
+    /* left: 25%; */
+    /* height: min-content; */
+    /* width: 70%; */
+    display: grid;
+    justify-items:center ;
 }
 
 .names {
@@ -226,4 +229,7 @@
     position: relative;
     top: -250px;
     border-radius: 3px;
+}
+#email-message::placeholder{
+    color: white;
 }
