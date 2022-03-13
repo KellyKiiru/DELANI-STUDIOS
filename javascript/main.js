@@ -130,3 +130,24 @@ $(document).ready(function () {
     });
   });
 });
+
+
+let jina = document.getElementById('name');
+
+let email = document.getElementById('email');
+
+let emailMessage = document.getElementById('email-message');
+
+function myFunction() {
+  if (jina.value === '' || jina.value == null) {
+    alert('Please input your name.')
+  } else if (email.value === '' || email.value == null) {
+    alert('Please input email.')
+  } else if (emailMessage.value === '' || emailMessage.value == null) {
+    alert('Want to give us suggestions. Write to us today.')
+  } else if (jina.value && email.value && emailMessage.value) {
+    alert('Hi ' + jina.value + '. Thank you. We appreciate your feedback. Expect an email response from our team in 24 hours.')
+  } else {
+    alert("We'd like to hear from you. Write to us.")
+  }
+}
