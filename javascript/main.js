@@ -159,4 +159,13 @@ function myFunction() {
   } else {
     alert("We'd like to hear from you. Write to us.")
   }
-}
+  let clear = document.getElementById('submit');
+
+  let inputs = document.querySelectorAll('input')
+
+  clear.addEventListener('click', () =>{
+    jina.value = '';
+    email.value = '';
+    emailMessage.value = '';
+  });
+};
