@@ -120,7 +120,7 @@
     /* height: min-content; */
     /* width: 70%; */
     display: grid;
-    justify-items:center ;
+    justify-items: center;
 }
 
 .names {
@@ -230,6 +230,7 @@
     top: -250px;
     border-radius: 3px;
 }
-#email-message::placeholder{
+
+#email-message::placeholder {
     color: white;
 }
